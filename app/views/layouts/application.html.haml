@@ -30,8 +30,10 @@
   %body
     = render 'shared/navbar'
 
-    #main-container.container
-      .content= yield
+    #wrap
+      #main-container.container
+        .content= yield
+      #push
 
     #footer
       .container= render 'shared/footer'
