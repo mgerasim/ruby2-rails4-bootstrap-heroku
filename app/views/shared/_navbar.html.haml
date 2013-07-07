@@ -1,4 +1,56 @@
 .navbar.navbar-fixed-top
-  .navbar-inner
-    .container
-      = link_to Rails.application.class.parent_name, root_path, class: 'brand'
+    .navbar-inner
+        .container
+            %a(class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse")
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
+            %a(class="brand" href="#")ИМЯ
+            .nav-collapse.collapse.navbar-responsive-collapse
+                %ul.nav
+                    %li.active
+                        %a(href="#")Главная
+                    %li
+                        %a(href="#")Категория
+                    %li
+                        %a(href="#")Контакты
+                    %li.dropdown
+                        %a{:href=>"#",:class=>'dropdown-toggle', "data-toggle"=>"dropdown"}
+                            Действия
+                            %b{:class => 'caret'}
+                        %ul.dropdown-menu
+                            %li
+                                %a(href="#")Действия
+                            %li
+                                %a(href="#")Выбрать
+                            %li
+                                %a(href="#")Добавить
+                            %li.divider
+                            %li.nav-header Настройки
+                            %li
+                                %a(href="#")Обновить
+                            %li
+                                %a(href="#")Параметры
+                %ul.nav.pull-right
+                    %li
+                        %a(href="#")Добавить
+                    %li.divider-vertical
+                    %li.dropdown
+                        %a{:href=>"#", :class=>'dropdown-toggle', "data-toggle"=>"dropdown"}
+                            Профиль
+                            %b{:class=> 'caret'}
+                        %ul.dropdown-menu
+                            %li
+                                %a(href="#")Просмотр
+                            %li
+                                %a(href="#")Изменить
+                            %li
+                                %a(href="#")Безопасность
+                            %li.divider
+                            %li
+                                %a(href="#")Отмена
+                
+                    
+                
+                    
+                    

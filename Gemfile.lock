@@ -37,6 +37,8 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     addressable (2.3.5)
+    annotate (2.5.0)
+      rake
     arel (4.0.0)
     atomic (1.1.10)
     better_errors (0.9.0)
@@ -218,6 +220,7 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
+    sqlite3 (1.3.7)
     therubyracer (0.11.4)
       libv8 (~> 3.11.8.12)
       ref
@@ -250,6 +253,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   better_errors
   binding_of_caller
   bullet
@@ -282,6 +286,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.0)
   selenium-webdriver
   simplecov
+  sqlite3
   therubyracer
   turbolinks
   twitter-bootstrap-rails!

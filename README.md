@@ -19,6 +19,11 @@ This is a starter web application based on the following technology stack:
 [6]: http://fontawesome.io/
 [7]: http://haml.info/
 
+Базовое приложение для построения веб сервисов
+ - responsive меню
+ - footer прилипающий к нижнему краю
+
+
 Starter App is deployable on [Heroku](http://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
 
 ```Gemfile``` also contains a set of useful gems for performance, security, api building...
