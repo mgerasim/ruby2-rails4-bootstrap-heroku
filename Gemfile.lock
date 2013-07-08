@@ -9,6 +9,17 @@ GIT
       rails (>= 3.1)
       railties (>= 3.1)
 
+GIT
+  remote: git://github.com/plataformatec/devise.git
+  revision: 6b5988d756d780903bf8c9ccb3e2b3b724ccebe8
+  branch: rails4
+  specs:
+    devise (2.2.4)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      warden (~> 1.2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -41,6 +52,7 @@ GEM
       rake
     arel (4.0.0)
     atomic (1.1.10)
+    bcrypt-ruby (3.1.0)
     better_errors (0.9.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
@@ -88,6 +100,8 @@ GEM
     debugger-ruby_core_source (1.2.3)
     delorean (2.1.0)
       chronic
+    devise-russian (2.0.1.1)
+      devise
     diff-lcs (1.2.4)
     email_spec (1.4.0)
       launchy (~> 2.1)
@@ -141,6 +155,7 @@ GEM
     multi_json (1.7.7)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    orm_adapter (0.4.0)
     pg (0.15.1)
     polyglot (0.3.3)
     pry (0.9.12.2)
@@ -242,6 +257,8 @@ GEM
       rack
       raindrops (~> 0.7)
     uniform_notifier (1.2.0)
+    warden (1.2.1)
+      rack (>= 1.0)
     webmock (1.12.3)
       addressable (>= 2.2.7)
       crack (>= 0.3.2)
@@ -263,6 +280,8 @@ DEPENDENCIES
   database_cleaner
   debugger
   delorean
+  devise!
+  devise-russian (~> 2.0.1.1)
   email_spec
   factory_girl_rails
   faker

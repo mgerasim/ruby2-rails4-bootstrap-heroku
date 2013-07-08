@@ -85,3 +85,5 @@ end
 group :staging, :production do
   gem 'rails_12factor'
 end
+gem 'devise', :git => 'git://github.com/plataformatec/devise.git', :branch => "rails4"
+gem "devise-russian", "~> 2.0.1.1"

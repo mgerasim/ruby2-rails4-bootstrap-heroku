@@ -23,6 +23,10 @@ This is a starter web application based on the following technology stack:
  - responsive меню
  - footer прилипающий к нижнему краю
 
+Установочные шаги
+rails generate devise:install
+rails generate devise:views
+rails generate devise:views users
 
 Starter App is deployable on [Heroku](http://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
 
